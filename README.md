@@ -7,11 +7,15 @@ Our net is implemented in net.py.
 ### 🏊 Training
 **1. Virtual Environment**
 
----create virtual environment
+create virtual environment
+
 conda create -n cddfuse python=3.8.10
 conda activate cddfuse
----select pytorch version yourself
----install cddfuse requirements
+
+select pytorch version yourself
+
+install cddfuse requirements
+
 pip install -r requirements.txt
 
 **2. Data Preparation**
