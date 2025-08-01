@@ -22,13 +22,13 @@ Run
 ```
 python dataprocessing.py
 ``` 
-and the processed training dataset is in ``'./data/PMMF_train_imgsize_128_stride_200.h5'``.
+The processed training dataset is in ``'./data/PMMF_train_imgsize_128_stride_200.h5'``.
 **4. CDDFuse Training**
 Run 
 ```
 python train.py
 ``` 
-and the trained model is available in ``'./models/'``.
+The trained model is available in ``'./models/'``.
 ### 🏄 Testing
 
 **1. Pretrained models**
