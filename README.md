@@ -9,12 +9,9 @@ conda activate cddfuse
 # select pytorch version yourself
 # install cddfuse requirements
 pip install -r requirements.txt
-
-
 **2. Data Preparation**
 
  Place it in the folder ``'./train_img/'``.
-
 **3. Pre-Processing**
 
 Run 
@@ -22,7 +19,6 @@ Run
 python dataprocessing.py
 ``` 
 and the processed training dataset is in ``'./data/PMMF_train_imgsize_128_stride_200.h5'``.
-
 **4. CDDFuse Training**
 
 Run 
